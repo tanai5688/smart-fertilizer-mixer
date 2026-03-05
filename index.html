@@ -3004,7 +3004,9 @@ window.addEventListener('load', function(){
     var host = (location.hostname || '').trim();
     var isIp = /^\d+\.\d+\.\d+\.\d+$/.test(host);
     var isGithub = /\.github\.io$/i.test(host);
-
+    if (DEMO_MODE && dom.ip && (!dom.ip.value || dom.ip.value.trim()==='' || dom.ip.value.trim()===location.hostname)) {
+  dom.ip.value = '192.168.4.1';
+}
     // ถ้าเปิดจาก ESP32 (hostname เป็น IP) -> ใส่ IP แล้ว auto-connect
     if(isIp){
       if(ipEl && (!ipEl.value || ipEl.value==='localhost' || ipEl.value==='127.0.0.1')){
