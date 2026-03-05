@@ -20,6 +20,10 @@ ESP32, Arduino, Sensors, Wi-Fi/HTTP, HTML/CSS/JavaScript, JSON
 3. Verify real-time readings (N/P/K/pH) or use Manual mode.
 4. Select plant type → get fertilizer recommendation.
 5. Run Quick Mix / Mixing and monitor progress + safety stop.
+## Repository Structure
+- `esp32/` : ESP32 firmware source
+- `web/`   : Dashboard (HTML/CSS/JS)
+- `images/`: Screenshots
 
 ## My Contribution
 - ออกแบบ workflow และ state ของระบบ
