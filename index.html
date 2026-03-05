@@ -2081,7 +2081,12 @@ function __showDiagPanel(text){
 }
 
     function setWsLight(on){ dom.wsDot.className = 'pump-status ' + (on?'bg-green-500':'bg-red-500'); }
+    const DEMO_MODE = /\.github\.io$/i.test(location.hostname);
     function connectWS(){
+      if (DEMO_MODE) {
+        toast('info', 'Demo mode: ถ้าจะเชื่อมต่ออุปกรณ์จริง ให้ต่อ Wi-Fi ของ ESP32 แล้วเปิด http://192.168.4.1');
+        return;
+      }
       const ip = dom.ip.value.trim();
       if(!ip){ toast('warn','กรุณากรอก IP อุปกรณ์'); return; }
       if(ws){ disconnectWS(); }
