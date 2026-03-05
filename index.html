@@ -14,7 +14,7 @@ console.log("BUILD","2026-02-13-postmixsave3");
 // Offline 100%: โหลด Tailwind จาก LittleFS เท่านั้น (ไม่ใช้ CDN)
 (function(){
   var s=document.createElement('script');
-  s.src=(location.protocol==='file:'?'./tailwind.js':'/tailwind.js');
+  s.src = './tailwind.js';
   s.onload=function(){ console.log('tailwind: local loaded'); };
   s.onerror=function(){ console.warn('tailwind.js not found (offline mode)'); };
   document.head.appendChild(s);
