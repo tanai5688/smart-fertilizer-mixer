@@ -20,3 +20,10 @@ ESP32, Arduino, Sensors, Wi-Fi/HTTP, HTML/CSS/JavaScript, JSON
 - พัฒนา logic ฝั่ง ESP32 และการส่งข้อมูล
 - พัฒนา/ปรับปรุง UI Dashboard และการแสดงสถานะ
 - ทดสอบและปรับให้เหมาะกับการใช้งานจริง/สาธิต
+## Screenshots
+![Image 1](images/image%20(1).png)
+![Image 2](images/image%20(2).png)
+![Image 3](images/image%20(3).png)
+![Image 4](images/image%20(4).png)
+![Image 5](images/image%20(5).png)
+![Image](images/image.png)
