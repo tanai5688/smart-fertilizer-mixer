@@ -2,6 +2,8 @@
 
 ## Overview
 ระบบ IoT ที่อ่านค่าดิน (N/P/K, pH) และแนะนำสูตร/ปริมาณปุ๋ยตามชนิดพืช พร้อมหน้าเว็บ Dashboard สำหรับแสดงผลแบบ real-time และสถานะการทำงาน
+## Live Demo (GitHub Pages)
+https://tanai5688.github.io/smart-fertilizer-mixer/
 
 ## Key Features
 - อ่านค่า NPK และ pH จากเซนเซอร์
