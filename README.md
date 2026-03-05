@@ -14,6 +14,12 @@ ESP32, Arduino, Sensors, Wi-Fi/HTTP, HTML/CSS/JavaScript, JSON
 
 ## Workflow
 1) Read sensor data → 2) Send to dashboard → 3) Process & evaluate → 4) Recommend → 5) Display status/result
+## Quick Start
+1. Power on ESP32 device and connect to its Wi-Fi (AP) or local network.
+2. Open the dashboard in a browser (e.g., http://192.168.4.1).
+3. Verify real-time readings (N/P/K/pH) or use Manual mode.
+4. Select plant type → get fertilizer recommendation.
+5. Run Quick Mix / Mixing and monitor progress + safety stop.
 
 ## My Contribution
 - ออกแบบ workflow และ state ของระบบ
